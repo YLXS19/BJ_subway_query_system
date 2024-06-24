@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <!-- 设置文档的字符编码为UTF-8，确保支持多种语言文本 -->
+    
+    <title>北京地铁线路查询</title>
+    <!-- 设置网页的标题显示在浏览器标签页上 -->
+    
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <!-- 视口设置：使网页宽度等于设备的宽度，初始缩放比例为1，以优化移动设备的显示 -->
+    
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v3.1.0/mapbox-gl.js'></script>
+    <!-- 引入Mapbox GL JS库的v3.1.0版本，提供地图显示和交互功能 -->
+    
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v3.1.0/mapbox-gl.css' rel='stylesheet' />
+    <!-- 引入Mapbox GL JS的样式表，确保地图控件和图层正确渲染样式 -->
+    
+    <style>
+      body { 
+          margin: 0; /* 移除body的外边距 */
+          padding: 0; /* 移除body的内边距 */
+      }
+
+      #map { 
+          position: absolute; /* 绝对定位，使地图相对于最近的相对定位或绝对定位的父容器定位 */
+          top: 0; /* 顶部对齐 */
+          bottom: 0; /* 底部对齐 */
+          width: 100%; /* 宽度设置为100%的视口宽度 */
+      }
+
+      .close{
+          position: fixed; /* 固定定位，使关闭按钮相对于视口固定 */
+          top: 15px; /* 距离顶部15像素 */
+          right: 30px; /* 距离右侧30像素 */
+      }
+
+      .close button {
+          font-size: 16px; /* 设置字体大小为16px */
+          background-color: #f44336; /* 设置背景颜色为红色 */
+          color: white; /* 设置字体颜色为白色 */
+          border: none; /* 移除边框 */
+          padding: 5px 10px; /* 内边距 */
+          text-align: center; /* 文本居中显示 */
+          text-decoration: none; /* 移除文本装饰 */
+          display: inline-block; /* 行内块级元素显示 */
+          margin: 2px 2px; /* 设置外边距 */
+          cursor: pointer; /* 设置鼠标光标为指针形状 */
+          border-radius: 5px; /* 设置边框圆角 */
+          transition: background-color 0.3s; /* 设置背景色变化的过渡效果持续时间为0.3秒 */
+      }
+
+      .close button:hover {
+          background-color: #d32f2f; /* 设置鼠标悬停时的背景颜色为深红色 */
+      }
+
+      .color-dot {
+          display: inline-block; /* 行内块级元素显示 */
+          width: 15px; /* 设置宽度为15px */
+          height: 15px; /* 设置高度为15px */
+          border-radius: 50%; /* 设置圆形边框 */
+          border: 2px solid black; /* 设置边框为2px黑色 */
+          margin-right: 10px; /* 设置右边距为10px */
+      }
+
+      .color-tex {
+          display: inline-block; /* 行内块级元素显示 */
+          color: white; /* 设置文字颜色为白色 */
+          text-shadow: /* 设置文字阴影 */
+          1px 1px 0 #000,  
+          1px 1px 0 #000,
+          1px 1px 0 #000,
+          1px 1px 0 #000; /* 四个阴影效果以增强可读性，相当于文字边框效果 */
+      }
+
+      .options {
+        position: fixed; /* 使元素固定在页面的特定位置，不随滚动条滚动 */
+        top: 10px; /* 元素顶部距离视窗顶部10像素 */
+        right: 450px; /* 元素右侧距离视窗右侧450像素 */
+        display: flex; /* 使用弹性盒布局 */
+        flex-direction: column; /* 子元素垂直排列 */
+        align-items: flex-start; /* 子元素在交叉轴上的起点对齐（左对齐） */
+        z-index: 2; /* 设置元素的堆叠顺序，高于z-index较低的元素 */
+      }
+
+      .options button {
+        font-size: 19px; /* 按钮文字大小为19像素 */
+        padding: 5px 5px; /* 按钮内边距，上下左右均为5像素 */
+        margin-bottom: 0px; /* 按钮底部外边距为0 */
+        cursor: pointer; /* 鼠标悬停时显示为手形指针 */
+        background-color: #9c9c9c; /* 按钮背景颜色设置为灰色 */
+        color: black; /* 文字颜色为黑色 */
+        border: none; /* 无边框 */
+        border-radius: 15px 0px 0px 15px; /* 设置按钮四角的圆角，左上和左下为15px，右上和右下为0px */
+        transition: background-color 0.3s ease; /* 背景颜色变化时的过渡效果，持续0.3秒 */
+        writing-mode: vertical-rl; /* 文字竖直排列，从上到下 */
+        text-orientation: mixed; /* 文字方向混合，确保符号等保持原样 */
+        white-space: nowrap; /* 文字不换行 */
+        opacity: 0.9; /* 设置元素透明度为0.9，略微透明 */
+      }
+
+      .options button.selected {
+        background-color: #ffffff; /* 当按钮处于选中状态时，背景颜色为白色 */
+      }
+
+      .result-container {
+          display: none; /* 初始不显示，通常用于动态显示 */
+          position: fixed; /* 固定位置，不随滚动条滚动 */
+          top: 10px; /* 距离顶部10px */
+          right: 10px; /* 距离右边10px */
+          z-index: 1; /* 层叠顺序，确保显示在其他元素上方 */
+          background: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+          padding: 20px; /* 内部间距 */
+          border-radius: 8px; /* 边角圆滑处理 */
+          box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* 盒子阴影效果 */
+          width: 400px; /* 宽度为400px */
+          font-size: 19px; /* 文本大小 */
+          height: calc(100vh - 60px); /* 高度为视口高度减60px */
+          overflow-y: auto; /* 内容过多时允许垂直滚动 */
+          flex-wrap: nowrap; /* 防止flex元素换行 */
+      }
+
+      .form-container {
+          position: fixed; /* 固定位置 */
+          top: 10px; /* 距离顶部10px */
+          left: 10px; /* 距离左边10px */
+          z-index: 1; /* 层叠顺序，确保显示在其他元素上方 */
+          background: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+          padding: 20px; /* 内部间距 */
+          border-radius: 8px; /* 边角圆滑处理 */
+          box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* 盒子阴影效果 */
+          width: 300px; /* 宽度为300px */
+          font-size: 19px; /* 文本大小 */
+      }
+
+      .form-container h3 {
+          margin-top: 0; /* 上边距为0 */
+          color: #333; /* 字体颜色深灰 */
+          font-size: 1.2em; /* 字体大小，相对于当前字体大小的1.2倍 */
+      }
+
+      .form-container input[type="text"] {
+          width: calc(100% - 22px); /* 宽度为容器宽度减22px */
+          padding: 10px; /* 内边距 */
+          margin-top: 8px; /* 顶部外边距 */
+          border: 1px solid #ccc; /* 边框 */
+          border-radius: 4px; /* 边框圆角 */
+          box-sizing: border-box; /* 边框和内边距包含在宽度内 */
+      }
+
+      .form-container button {
+          width: 100%; /* 宽度100%填满容器 */
+          padding: 10px; /* 内边距 */
+          border: none; /* 无边框 */
+          background-color: #4CAF50; /* 背景颜色为绿色 */
+          color: white; /* 文本颜色为白色 */
+          font-size: 1em; /* 字体大小为1em */
+          border-radius: 4px; /* 边框圆角 */
+          cursor: pointer; /* 鼠标指针为手形 */
+          margin-top: 12px; /* 顶部外边距 */
+      }
+
+      .form-container button:hover {
+          background-color: #45a049; /* 鼠标悬停时的背景颜色稍暗 */
+      }
+
+      input[type="text"] {
+          font-size: 19px; /* 设置输入框内的文本大小 */
+          padding: 8px; /* 设置一些内边距以使文本输入更舒适 */
+          width: 90%; /* 调整输入框宽度为容器宽度的90% */
+          margin: 5px 0; /* 上下留点间隔 */
+      }
+
+      .autocomplete {
+          position: relative;
+          display: block; /* 设置此元素为块级元素，使其单独占据一行 */
+      }
+
+      .autocomplete-items {
+          position: absolute; /* 定位类型为绝对，相对于最近的相对定位祖先元素定位 */
+          border: 1px solid #d4d4d4; /* 设置边框颜色为淡灰色 */
+          border-bottom: none; /* 移除底部边框 */
+          border-top: none; /* 移除顶部边框 */
+          z-index: 99; /* 设置堆叠顺序，确保此元素在其他元素之上显示 */
+          top: 100%; /* 从顶部向下偏移100%，即紧贴触发元素的底部 */
+          left: 0; /* 左侧对齐 */
+          right: 0; /* 右侧对齐 */
+          width: 300px; /* 设置宽度为300px */
+          max-height: 400px; /* 最大高度为400px */
+          overflow-y: auto; /* 超出垂直范围时显示滚动条 */
+          overflow-x: hidden; /* 水平方向隐藏超出内容 */
+          background-color: #fff; /* 背景色设为白色 */
+      }
+
+      .autocomplete-items div {
+          padding: 9px; /* 内边距设置为9px */
+          width: 258px; /* 设置div的宽度为258px */
+          cursor: pointer; /* 鼠标悬停时显示指针形状 */
+          background-color: #fff; /* 背景色设为白色 */
+          border-bottom: 1px solid #d4d4d4; /* 底部边框设置为淡灰色 */
+      }
+
+      .autocomplete-items div:hover {
+          background-color: #e9e9e9; /* 鼠标悬停时的背景色变为浅灰色 */
+      }
+
+      #reinit button {
+          width: 100%; /* 按钮宽度为100%填满容器 */
+          padding: 10px; /* 内边距为10px */
+          border: none; /* 无边框 */
+          background-color: #ffffff; /* 背景色为白色 */
+          color: black; /* 文字颜色为黑色 */
+          font-size: 1em; /* 字体大小设置为1em */
+          border-radius: 4px; /* 边角半径为4px */
+          cursor: pointer; /* 鼠标悬停显示为指针形状 */
+          margin-top: 12px; /* 顶部外边距为12px */
+      }
+
+      #reinit button:hover {
+          background-color: #dedede; /* 鼠标悬停时背景色变为深灰色 */
+      }
+
+      .adds{
+          display: none; /* 默认不显示，需要通过JavaScript动态显示 */
+          position: fixed; /* 位置固定，不随页面滚动而改变位置 */
+          top: 50%; /* 距离页面顶部50%的位置 */
+          left: 50%; /* 距离页面左边50%的位置 */
+          transform: translate(-50%, -50%); /* 偏移自身宽度和高度的50%，以确保居中 */
+          z-index: 1; /* 层级为1，确保浮于其他普通内容之上 */
+          background: rgba(255, 255, 255, 0.9); /* 半透明的白色背景 */
+          padding: 20px; /* 内边距为20像素 */
+          border-radius: 8px; /* 边框圆角为8像素 */
+          box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* 盒子阴影，模拟3D效果 */
+          width: 200px; /* 宽度固定为200像素 */
+          font-size: 19px; /* 字体大小为19像素 */
+      }
+      .adds button {
+          padding: 5px 20px; /* 按钮内边距 */
+          margin: 10px; /* 外边距为10像素 */
+          cursor: pointer; /* 鼠标悬停时显示指针 */
+          border: none; /* 无边框 */
+          border-radius: 5px; /* 按钮边角的圆角为5像素 */
+          font-size: 16px; /* 按钮内文字大小为16像素 */
+      }
+      .adds button[type="submit"] {
+          background-color: #4CAF50; /* 提交按钮的背景颜色为绿色 */
+          color: white; /* 文字颜色为白色 */
+      }
+      .adds button[type="submit"]:hover {
+          background-color: #45a049; /* 鼠标悬停时的背景颜色稍微变深 */
+      }
+      .adds button[type="button"] {
+          background-color: #f0f0f0; /* 普通按钮的背景颜色为灰色 */
+          color: black; /* 文字颜色为黑色 */
+      }
+      .adds button[type="button"]:hover {
+          background-color: #dedede; /* 鼠标悬停时的背景颜色更深的灰色 */
+      }
+
+      .addl{
+          display: none; /* 初始不显示这个元素 */
+          position: fixed; /* 元素固定在视口，不随滚动条滚动 */
+          top: 50%; /* 距离视口顶部50%，配合transform实现垂直居中 */
+          left: 50%; /* 距离视口左边50%，配合transform实现水平居中 */
+          transform: translate(-50%, -50%); /* 使用transform对元素进行平移，确保元素完全居中 */
+          z-index: 1; /* 设置元素的堆叠顺序 */
+          background: rgba(255, 255, 255, 0.9); /* 设置半透明的白色背景 */
+          padding: 20px; /* 内边距为20px，使内容与边界有间隔 */
+          border-radius: 8px; /* 边角圆滑处理，半径为8px */
+          box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* 添加阴影效果，提升层次感 */
+          width: 779px; /* 宽度设置为779px */
+          font-size: 19px; /* 字体大小设置为19px */
+          overflow-y: auto; /* 垂直方向上出现滚动条 */
+          max-height: 800px; /* 设置最大高度为800px */
+      }
+      .addl button {
+          padding: 5px 90px; /* 按钮内边距，左右为90px，上下为5px */
+          margin: 20px 70px; /* 按钮外边距，左右为70px，上下为20px */
+          cursor: pointer; /* 鼠标悬停时显示指针 */
+          border: none; /* 按钮无边框 */
+          border-radius: 5px; /* 按钮边角圆滑处理，半径为5px */
+          font-size: 16px; /* 按钮文字大小为16px */
+      }
+      .addl button[type="submit"] {
+          background-color: #4CAF50; /* 提交按钮背景颜色为绿色 */
+          color: white; /* 提交按钮文字颜色为白色 */
+      }
+      .addl button[type="submit"]:hover {
+          background-color: #45a049; /* 鼠标悬停时提交按钮的背景颜色变为深绿色 */
+      }
+      .addl button[type="button"] {
+          background-color: #f0f0f0; /* 普通按钮的背景颜色为浅灰色 */
+          color: black; /* 普通按钮的文字颜色为黑色 */
+      }
+      .addl button[type="button"]:hover {
+          background-color: #dedede; /* 鼠标悬停时普通按钮的背景颜色变为中灰色 */
+      }
+
+      .cntstation {
+          display: flex; /* 使用Flexbox布局，这让容器内的元素能够灵活地布局 */
+          align-items: center; /* 垂直居中容器内的所有元素 */
+      }
+
+      .autolist {
+          position: relative; /* 设置相对定位，使内部绝对定位的元素相对于此元素定位 */
+          display: inline-block; /* 设置为内联块显示，使元素既可以设置宽高，又不独占一行 */
+      }
+
+      .autolist-items {
+          position: absolute; /* 绝对定位，位置相对于最近的已定位祖先元素（.autolist） */
+          border: 1px solid #d4d4d4; /* 边框样式 */
+          border-bottom: none; /* 去掉底部边框 */
+          border-top: none; /* 去掉顶部边框 */
+          z-index: 99; /* 设置堆叠顺序，保证在其他普通内容之上 */
+          top: 100%; /* 将顶部边缘放置在父元素的底部 */
+          left: 30%; /* 从左边偏移父元素宽度的30% */
+          width: 140px; /* 固定宽度 */
+          max-height: 200px; /* 最大高度，超出此高度将显示滚动条 */
+          overflow-y: auto; /* 内容超出高度时垂直方向滚动 */
+          overflow-x: hidden; /* 水平方向不显示滚动条 */
+          background-color: #fff; /* 背景颜色设置为白色 */
+      }
+
+      .autolist-items div {
+          padding: 9px; /* 内边距 */
+          width: 258px; /* 固定宽度 */
+          cursor: pointer; /* 鼠标悬停时显示指针，提示此元素可点击 */
+          background-color: #fff; /* 背景颜色为白色 */
+          border-bottom: 1px solid #d4d4d4; /* 每个项目下边框 */
+      }
+
+      .autolist-items div:hover {
+          background-color: #e9e9e9; /* 鼠标悬停时背景色变深 */
+      }
+
+      #addtime {
+          display: none; /* 默认不显示，使用JavaScript进行显示控制 */
+          position: fixed; /* 固定位置，不随滚动条滚动 */
+          top: 50%; /* 垂直居中 */
+          left: 50%; /* 水平居中 */
+          transform: translate(-50%, -50%); /* 使用变换偏移自身的50%来完全居中 */
+          z-index: 1; /* 层级较低，确保不覆盖顶层元素 */
+          background: rgba(255, 255, 255, 0.9); /* 半透明白色背景 */
+          padding: 20px; /* 内边距 */
+          border-radius: 8px; /* 边框圆角 */
+          box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* 盒子阴影 */
+          font-size: 19px; /* 字体大小 */
+          overflow-y: auto; /* 垂直滚动条 */
+          max-height: 800px; /* 最大高度 */
+          width: 1200px; /* 宽度 */
+      }
+
+      .timeButton{
+          padding: 3px 6px; /* 设置按钮内边距 */
+          margin: 2px 3px; /* 设置按钮的外边距 */
+          cursor: pointer; /* 鼠标悬停时显示指针图标 */
+          border: none; /* 按钮无边框 */
+          border-radius: 5px; /* 设置按钮的边角为圆角 */
+          font-size: 16px; /* 设置文字大小 */
+          background-color: #f0f0f0; /* 设置按钮的背景颜色为浅灰色 */
+          color: black; /* 设置按钮文字颜色为黑色 */
+      }
+      .timeButton:hover {
+          background-color: #dedede; /* 鼠标悬停时改变按钮背景颜色为稍深的灰色 */
+      }
+      .timeButton.selected {
+          background-color: #4CAF50; /* 当按钮被选中时，背景颜色为绿色 */
+          color: white; /* 被选中时的文字颜色为白色 */
+      }
+
+      .button-container {
+          display: flex; /* 设置为弹性盒模型布局 */
+          width: 1200px; /* 设置容器宽度 */
+          justify-content: center; /* 水平居中所有子元素 */
+      }
+      .button-container button {
+          padding: 5px 90px; /* 设置按钮的内边距 */
+          margin: 20px 70px; /* 设置按钮的外边距 */
+          cursor: pointer; /* 鼠标悬停时显示指针图标 */
+          border: none; /* 按钮无边框 */
+          border-radius: 5px; /* 设置按钮的边角为圆角 */
+          font-size: 16px; /* 设置文字大小 */
+      }
+      .button-container button[type="submit"] {
+          background-color: #4CAF50; /* 提交按钮的背景颜色为绿色 */
+          color: white; /* 提交按钮的文字颜色为白色 */
+      }
+      .button-container button[type="submit"]:hover {
+          background-color: #45a049; /* 鼠标悬停时，提交按钮的背景颜色变深 */
+      }
+      .button-container button[type="button"] {
+          background-color: #f0f0f0; /* 普通按钮的背景颜色为浅灰色 */
+          color: black; /* 普通按钮的文字颜色为黑色 */
+      }
+      .button-container button[type="button"]:hover {
+          background-color: #dedede; /* 鼠标悬停时，普通按钮的背景颜色变为稍深的灰色 */
+      }
+
+    </style>
+  </head>
+  <body>
+    <body>
+      <!-- 时钟显示区域，固定在页面右下角，显示较大的字体以便查看 -->
+      <div id="clock" style="position: fixed; bottom: 0; right: 0; padding: 10px; z-index: 99; font-size: 30px;"></div>
+      
+      <!-- 地图容器，用于显示Mapbox地图 -->
+      <div id='map'></div>
+      
+      <!-- 表单容器，用于查询和管理地铁路线 -->
+      <div class="form-container">
+        <!-- 查询地铁路线的标题 -->
+        <h3>查询地铁路线</h3>
+        
+        <!-- 路线查询表单 -->
+        <form id="routeForm">
+          <!-- 起点输入区，带自动完成功能 -->
+          <div class="autocomplete">
+              起点: <input type="text" id="start" autocomplete="off" required>
+              <!-- 自动完成下拉列表 -->
+              <div id="autocomplete-list-start" class="autocomplete-items"></div>
+          </div>
+          
+          <!-- 终点输入区，同样带自动完成功能 -->
+          <div class="autocomplete">
+              终点: <input type="text" id="end" autocomplete="off" required>
+              <!-- 自动完成下拉列表 -->
+              <div id="autocomplete-list-end" class="autocomplete-items"></div>
+          </div>
+          
+          <!-- 查询按钮 -->
+          <button type="submit">查询</button>
+        </form>
+  
+        <!-- 删除地铁路线的标题 -->
+        <br><br><h3>删除地铁路线</h3>
+        <!-- 删除地铁路线表单 -->
+        <form id="delet_line">
+          <!-- 删除输入区，带自动完成功能 -->
+          <div class="autocomplete">
+              <input type="text" id="delete" autocomplete="off" required>
+              <!-- 自动完成下拉列表 -->
+              <div id="autocomplete-list-line" class="autocomplete-items"></div>
+          </div>
+          <!-- 删除按钮 -->
+          <button type="submit">删除</button>
+        </form>
+  
+        <!-- 添加操作的标题 -->
+        <br><br><h3>添加</h3>
+        <!-- 添加地铁站按钮 -->
+        <button id="add_station">添加地铁站</button>
+        <!-- 添加地铁线路按钮 -->
+        <button id="add_line">添加地铁线路</button>
+        
+        <!-- 重置操作区域 -->
+        <div id= "reinit">
+          <!-- 重置按钮 -->
+          <br><button id= "re">重置</button>
+        </div>
+      </div>
+  
+      <div class="result-container">
+        <!-- 容器用于展示查询结果，初始时通常设置为隐藏状态 -->
+        <div class="options">
+          <!-- 按钮组，提供不同的查询选项 -->
+          <button id="minTime" class="selected">最短时间</button>
+          <!-- 按钮用于选择最短时间的查询结果 -->
+          <button id="minTransfers">最少换乘</button>
+          <!-- 按钮用于选择最少换乘次数的查询结果 -->
+        </div>
+        <div class="close">
+          <!-- 包含一个关闭按钮，用于关闭结果显示容器 -->
+          <button id="close_button">关闭</button>
+          <!-- 关闭按钮，点击后隐藏结果容器 -->
+        </div>
+        <div id="routeDetails"></div>
+        <!-- 用于显示具体的路线详情信息 -->
+      </div>
+
+      <div class="adds">
+        <!-- 容器用于添加新的地铁站 -->
+        <form id="adds_form">
+          <!-- 表单用于收集输入的新地铁站信息 -->
+          地铁站名称：<input type="text" id="adds_in" autocomplete="off" required>
+          <!-- 文本输入框，用户必须填写地铁站名称，关闭自动完成 -->
+          <button type="button" id="cancelButton">取消</button>
+          <!-- 取消按钮，用于取消添加操作 -->
+          <button type="submit">确定</button>
+          <!-- 提交按钮，提交表单以添加新的地铁站 -->
+        </form>
+      </div>
+      
+    <div class="addl">
+        <!-- 容器类 "addl" 用于添加地铁线路的表单，通常在用户界面中以弹窗或特定区域出现 -->
+        <form id="addl_form">
+            <!-- 表单用于提交地铁线路的相关数据 -->
+            <div class="cntstation">
+                <!-- 用于容纳地铁线路名称、最高时速和站点数量的输入字段 -->
+                地铁线路名称：<input type="text" id="addl_in" style="width: 150px;" autocomplete="off" required>
+                <!-- 文本输入框，用于输入地铁线路名称，禁用自动完成，必填 -->
+                
+                &nbsp;&nbsp;&nbsp;最高时速(km/h)：<input type="text" id="maxSpeed" name="maxSpeed" pattern="[0-9]*" style="width: 50px;" autocomplete="off" required>
+                <!-- 文本输入框，用于输入地铁线路的最高时速，只允许数字输入，禁用自动完成，必填 -->
+                
+                &nbsp;&nbsp;&nbsp;站点数量：<input type="text" id="siteCount" name="siteCount" pattern="[0-9]*" style="width: 50px;" autocomplete="off" required>
+                <!-- 文本输入框，用于输入地铁线路的站点数量，只允许数字输入，禁用自动完成，必填 -->
+            </div>
+            <div id="stationInputs"></div>
+            <!-- 用于动态添加站点输入框的容器 -->
+
+            <button type="button" id="cancel1">取消</button>
+            <!-- 取消按钮，用于关闭或取消添加地铁线路的操作 -->
+            
+            <button type="submit">确定</button>
+            <!-- 提交按钮，用于提交表单数据以添加或更新地铁线路信息 -->
+        </form>
+    </div>
+
+    <form id="addtime">
+      <!-- 定义一个表单，用于提交地铁站的时刻表信息，表单的ID为"addtime" -->
+      
+            <h2>添加时刻表</h2>
+            <!-- 表单的标题，用于提示用户这个表单的作用是添加时刻表 -->
+      
+            <h3>首站（<span id="first"></span>）时刻表</h3>
+            <!-- 子标题，显示首站的名称，首站名称会动态填充在<span>标签内 -->
+      
+            <h4>工作日：</h4>
+            <!-- 小标题，指明以下时刻表是工作日的时刻表 -->
+      
+            <div id="timeGrid11"></div>
+            <!-- 容器，用于动态加载或填充工作日的时刻表数据 -->
+      
+            <h4>双休日：</h4>
+            <!-- 小标题，指明以下时刻表是双休日的时刻表 -->
+      
+            <div id="timeGrid12"></div>
+            <!-- 容器，用于动态加载或填充双休日的时刻表数据 -->
+      
+            <h3>末站（<span id="last"></span>）时刻表</h3>
+            <!-- 子标题，显示末站的名称，末站名称会动态填充在<span>标签内 -->
+      
+            <h4>工作日：</h4>
+            <!-- 小标题，指明以下时刻表是末站的工作日时刻表 -->
+      
+            <div id="timeGrid21"></div>
+            <!-- 容器，用于动态加载或填充末站的工作日时刻表数据 -->
+      
+            <h4>双休日：</h4>
+            <!-- 小标题，指明以下时刻表是末站的双休日时刻表 -->
+      
+            <div id="timeGrid22"></div>
+            <!-- 容器，用于动态加载或填充末站的双休日时刻表数据 -->
+      
+            <div class="button-container">
+              <!-- 容器，用于包含表单的操作按钮，如取消和确定 -->
+      
+              <button type="button" id="cancel2">取消</button>
+              <!-- 按钮，用于取消操作并关闭表单，不提交数据 -->
+      
+              <button type="submit">确定</button>
+              <!-- 提交按钮，用于提交表单数据，确认添加或修改时刻表信息 -->
+            </div> 
+      </form>
+      
+      <script>
+        // 定义一个函数用于显示时间
+        function showTime() {
+          var date = new Date(); // 创建一个Date对象，获取当前日期和时间
+          var hours = date.getHours(); // 从Date对象获取当前小时
+          var minutes = date.getMinutes(); // 从Date对象获取当前分钟
+          var seconds = date.getSeconds(); // 从Date对象获取当前秒数
+          minutes = checkTime(minutes); // 调用checkTime函数格式化分钟，确保是两位数字
+          seconds = checkTime(seconds); // 调用checkTime函数格式化秒钟，确保是两位数字
+      
+          // 将格式化后的时间字符串设置到id为'clock'的HTML元素中
+          document.getElementById('clock').innerHTML = hours + ":" + minutes + ":" + seconds;
+      
+          // 使用setTimeout函数设置一个定时器，每1000毫秒（1秒）后重新调用showTime函数更新时间
+          setTimeout(showTime, 1000);
+        }
+      
+        // 定义一个函数用于确保时间显示为两位数字
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};  // 如果数字小于10, 在前面添加0以形成两位数字
+          return i; // 返回格式化后的时间字符串
+        }
+      
+        // 在页面加载完成后立即调用showTime函数，以初始化时间显示
+        showTime();
+      </script>
+      <script type="module" src="main.js"></script>
+      <!-- 引入名为'main.js'的JavaScript模块文件，此文件可能包含其他与页面相关的脚本 -->
+      
+</body>
+</html>

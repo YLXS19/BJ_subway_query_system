@@ -1,0 +1,7260 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "环球度假区",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)",
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.679099,
+          39.849152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "花庄",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)",
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.695495,
+          39.856722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "土桥",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.686349,
+          39.871926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "临河里",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.678811,
+          39.875496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "梨园",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.66872,
+          39.883677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "九棵树",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.657533,
+          39.890278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "果园",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.646621,
+          39.893329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "通州北苑",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.637252,
+          39.903864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "八里桥",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.618658,
+          39.906121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "管庄",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.599002,
+          39.90909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "双桥",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.576754,
+          39.910142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "传媒大学",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.554639,
+          39.909215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "高碑店",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.531421,
+          39.909448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "四惠东",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.515664,
+          39.908495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "四惠",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.495456,
+          39.908749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "大望路",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)",
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.475783,
+          39.908287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "国贸",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.459707,
+          39.908421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "永安里",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.45033,
+          39.908472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "建国门",
+        "lines": [
+          "地铁2号线内环(积水潭--积水潭)",
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.434648,
+          39.908555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "东单",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)",
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.420327,
+          39.908317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "王府井",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)",
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.411571,
+          39.908069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "天安门东",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.401216,
+          39.90778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "天安门西",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.391278,
+          39.907472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "西单",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)",
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.376225,
+          39.907194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "复兴门",
+        "lines": [
+          "地铁2号线内环(积水潭--积水潭)",
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.357793,
+          39.907174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "南礼士路",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.352583,
+          39.907234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "木樨地",
+        "lines": [
+          "地铁16号线(宛平城--北安河)",
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.337583,
+          39.907379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "军事博物馆",
+        "lines": [
+          "地铁9号线(国家图书馆--郭公庄)",
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.323385,
+          39.907422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "公主坟",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.31029,
+          39.907478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "万寿路",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.294765,
+          39.907474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "五棵松",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.273987,
+          39.907456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "玉泉路",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.252888,
+          39.907433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "八宝山",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.235739,
+          39.907441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "八角游乐园",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.212858,
+          39.907442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "古城",
+        "lines": [
+          "地铁1号线八通线(环球度假区--福寿岭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.190337,
+          39.90745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "巴沟",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "西郊线(香山--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.293357,
+          39.974414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "苏州街",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.306332,
+          39.975642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "海淀黄庄",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.317564,
+          39.975996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "知春里",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.328858,
+          39.976337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "知春路",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁13号线(西直门--东直门)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.341372,
+          39.976473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "西土城",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.354314,
+          39.976372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "牡丹园",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁19号线(牡丹园--新宫)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.369619,
+          39.976388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "健德门",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.381356,
+          39.976545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北土城",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.394193,
+          39.976953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "安贞门",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.405954,
+          39.977005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "惠新西街南口",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.417537,
+          39.977121
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "芍药居",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁13号线(西直门--东直门)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.437516,
+          39.97709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "太阳宫",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁17号线北段(工人体育场--未来科学城北)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.447469,
+          39.972678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "三元桥",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "首都机场线(3号航站楼--北新桥)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.457152,
+          39.960747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "亮马桥",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.462156,
+          39.949381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "农业展览馆",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.462525,
+          39.941261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "团结湖",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.461806,
+          39.933747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "呼家楼",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.461601,
+          39.923317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "金台夕照",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.461703,
+          39.916786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "双井",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.461834,
+          39.893512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "劲松",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.461422,
+          39.884467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "潘家园",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.460926,
+          39.875387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "十里河",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁14号线(张郭庄--善各庄)",
+          "地铁17号线(嘉会湖--十里河)"
+        ],
+        "status": "运营中",
+        "line_siz": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.458929,
+          39.86562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "分钟寺",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.453976,
+          39.852227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "成寿寺",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.447635,
+          39.845874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "宋家庄",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁亦庄线(宋家庄--亦庄火车站)",
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.428368,
+          39.845849
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "石榴庄",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.414103,
+          39.845905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "大红门",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.399154,
+          39.845383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "角门东",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.385649,
+          39.845135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "角门西",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.371154,
+          39.84585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "草桥",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁19号线(牡丹园--新宫)",
+          "北京大兴国际机场线(草桥--大兴机场)"
+        ],
+        "status": "运营中",
+        "line_siz": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.351387,
+          39.845869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "纪家庙",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.333381,
+          39.844433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "首经贸",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.320202,
+          39.844463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "丰台站",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.304501,
+          39.850249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "泥洼",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.304173,
+          39.858609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "西局",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.303817,
+          39.865877
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "六里桥",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁9号线(国家图书馆--郭公庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.302808,
+          39.880239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "莲花桥",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.310347,
+          39.897867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "西钓鱼台",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.297901,
+          39.923359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "慈寿寺",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)",
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.295303,
+          39.933353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "车道沟",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.293818,
+          39.947923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "长春桥",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.294255,
+          39.958527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "火器营",
+        "lines": [
+          "地铁10号线内环(巴沟--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.289058,
+          39.965938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "新首钢",
+        "lines": [
+          "地铁11号线(新首钢--模式口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.164863,
+          39.908918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北辛安",
+        "lines": [
+          "地铁11号线(新首钢--模式口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.164818,
+          39.915135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "金安桥",
+        "lines": [
+          "地铁11号线(新首钢--模式口)",
+          "S1线(石厂--苹果园)",
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.161396,
+          39.922328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "模式口",
+        "lines": [
+          "地铁11号线(新首钢--模式口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.156032,
+          39.93349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "西直门",
+        "lines": [
+          "地铁13号线(西直门--东直门)",
+          "地铁4号线大兴线(天宫院--安河桥北)",
+          "地铁2号线内环(积水潭--积水潭)"
+        ],
+        "status": "运营中",
+        "line_siz": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.353226,
+          39.94167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "大钟寺",
+        "lines": [
+          "地铁13号线(西直门--东直门)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.345139,
+          39.966612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "五道口",
+        "lines": [
+          "地铁13号线(西直门--东直门)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.337742,
+          39.992894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "上地",
+        "lines": [
+          "地铁13号线(西直门--东直门)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.320193,
+          40.033007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "清河站",
+        "lines": [
+          "地铁13号线(西直门--东直门)",
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.314797,
+          40.04109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "西二旗",
+        "lines": [
+          "地铁13号线(西直门--东直门)",
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.306295,
+          40.053034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "龙泽",
+        "lines": [
+          "地铁13号线(西直门--东直门)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.319429,
+          40.070882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "回龙观",
+        "lines": [
+          "地铁13号线(西直门--东直门)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.336116,
+          40.0708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "霍营",
+        "lines": [
+          "地铁13号线(西直门--东直门)",
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3608,
+          40.070567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "立水桥",
+        "lines": [
+          "地铁13号线(西直门--东直门)",
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.411181,
+          40.052836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北苑",
+        "lines": [
+          "地铁13号线(西直门--东直门)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.434518,
+          40.042997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "望京西",
+        "lines": [
+          "地铁13号线(西直门--东直门)",
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.447359,
+          39.995084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "光熙门",
+        "lines": [
+          "地铁13号线(西直门--东直门)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.431761,
+          39.968337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "柳芳",
+        "lines": [
+          "地铁13号线(西直门--东直门)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.432728,
+          39.958157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "东直门",
+        "lines": [
+          "地铁13号线(西直门--东直门)",
+          "地铁2号线内环(积水潭--积水潭)",
+          "首都机场线(3号航站楼--北新桥)"
+        ],
+        "status": "运营中",
+        "line_siz": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.435103,
+          39.942539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "张郭庄",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.187193,
+          39.8581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "园博园",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.201643,
+          39.861328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "大瓦窑",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.24048,
+          39.85947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "郭庄子",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.253068,
+          39.864841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "大井",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.276061,
+          39.865226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "七里庄",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)",
+          "地铁9号线(国家图书馆--郭公庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.29385,
+          39.866102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "东管头",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.321197,
+          39.86757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "丽泽商务区",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.331268,
+          39.867718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "菜户营",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.342444,
+          39.867627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "西铁营",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.355953,
+          39.861358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "景风门",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)",
+          "地铁19号线(牡丹园--新宫)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.366033,
+          39.862631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北京南站",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)",
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.378963,
+          39.865029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "永定门外",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)",
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.399253,
+          39.867686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "景泰",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.411026,
+          39.86525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "蒲黄榆",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)",
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.423087,
+          39.865584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "方庄",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.440244,
+          39.865864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北工大西门",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.477282,
+          39.875294
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "平乐园",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.477307,
+          39.885275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "九龙山",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)",
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.477492,
+          39.893395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "金台路",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)",
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.478115,
+          39.923556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "朝阳公园",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.478291,
+          39.933492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "枣营",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.474947,
+          39.944132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "东风北桥",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.485919,
+          39.958375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "将台",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.490213,
+          39.971026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "望京南",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.48188,
+          39.98467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "阜通",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.471544,
+          39.991835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "望京",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)",
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.468213,
+          39.998876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "东湖渠",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.467415,
+          40.010566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "来广营",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.466999,
+          40.02043
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "善各庄",
+        "lines": [
+          "地铁14号线(张郭庄--善各庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.478195,
+          40.02716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "俸伯",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.684732,
+          40.132573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "顺义",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.657023,
+          40.129994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "石门",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.641117,
+          40.129802
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "南法信",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.609535,
+          40.128478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "后沙峪",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.564211,
+          40.114127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "花梨坎",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.557593,
+          40.084436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "国展",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.555127,
+          40.07003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "孙河",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5347,
+          40.045113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "马泉营",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.50348,
+          40.033721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "崔各庄",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.492968,
+          40.022201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "望京东",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.487105,
+          40.0032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "关庄",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.430947,
+          40.001134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "大屯路东",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)",
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.418679,
+          40.003127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "安立路",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.407845,
+          40.002619
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "奥林匹克公园",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)",
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.391758,
+          40.002207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北沙滩",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.368281,
+          40.001518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "六道口",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)",
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.35267,
+          40.000958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "清华东路西口",
+        "lines": [
+          "地铁15号线(俸伯--清华东路西口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.33953,
+          40.000673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "宛平城",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.229571,
+          39.849056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "洪泰庄",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.249321,
+          39.848538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "榆树庄",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.258964,
+          39.838742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "看丹",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.272519,
+          39.83491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "富丰桥",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.287023,
+          39.836228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "丰台南路",
+        "lines": [
+          "地铁16号线(宛平城--北安河)",
+          "地铁9号线(国家图书馆--郭公庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.296595,
+          39.840752
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "东管头南",
+        "lines": [
+          "地铁16号线(宛平城--北安河)",
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.322956,
+          39.854323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "红莲南路",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.336668,
+          39.877533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "达官营",
+        "lines": [
+          "地铁16号线(宛平城--北安河)",
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.334822,
+          39.891036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "玉渊潭东门",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.334531,
+          39.913955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "甘家口",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.334546,
+          39.923168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "二里沟",
+        "lines": [
+          "地铁16号线(宛平城--北安河)",
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.333701,
+          39.93241
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "国家图书馆",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)",
+          "地铁16号线(宛平城--北安河)",
+          "地铁9号线(国家图书馆--郭公庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.323612,
+          39.941863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "万寿寺",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.309904,
+          39.947773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "苏州桥",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.307831,
+          39.962314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "万泉河桥",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.299028,
+          39.985247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "西苑",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)",
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.292094,
+          39.999626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "农大南路",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.282316,
+          40.021352
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "马连洼",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.27252,
+          40.032637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "西北旺",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.257923,
+          40.048703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "永丰南",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.248154,
+          40.065575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "永丰",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.238481,
+          40.071868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "屯佃",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.21585,
+          40.068454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "稻香湖路",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.188145,
+          40.068936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "温阳路",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.161361,
+          40.068516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北安河",
+        "lines": [
+          "地铁16号线(宛平城--北安河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.130618,
+          40.068023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "工人体育场",
+        "lines": [
+          "地铁17号线北段(工人体育场--未来科学城北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.450448,
+          39.934058
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "左家庄",
+        "lines": [
+          "地铁17号线北段(工人体育场--未来科学城北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.44272,
+          39.949968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "西坝河",
+        "lines": [
+          "地铁17号线北段(工人体育场--未来科学城北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.440144,
+          39.96557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "红军营",
+        "lines": [
+          "地铁17号线北段(工人体育场--未来科学城北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.441797,
+          40.033722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "清河营",
+        "lines": [
+          "地铁17号线北段(工人体育场--未来科学城北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.442102,
+          40.050784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "天通苑东",
+        "lines": [
+          "地铁17号线北段(工人体育场--未来科学城北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.44234,
+          40.068348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "未来科学城",
+        "lines": [
+          "地铁17号线北段(工人体育场--未来科学城北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.466838,
+          40.115628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "未来科学城北",
+        "lines": [
+          "地铁17号线北段(工人体育场--未来科学城北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.468858,
+          40.130075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "嘉会湖",
+        "lines": [
+          "地铁17号线(嘉会湖--十里河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.610369,
+          39.792902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "次渠",
+        "lines": [
+          "地铁17号线(嘉会湖--十里河)",
+          "地铁亦庄线(宋家庄--亦庄火车站)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.591563,
+          39.80355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "次渠北",
+        "lines": [
+          "地铁17号线(嘉会湖--十里河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.57667,
+          39.80939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北神树",
+        "lines": [
+          "地铁17号线(嘉会湖--十里河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.552736,
+          39.818596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "十八里店",
+        "lines": [
+          "地铁17号线(嘉会湖--十里河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.495847,
+          39.8443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "周家庄",
+        "lines": [
+          "地铁17号线(嘉会湖--十里河)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.476361,
+          39.856706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北太平庄",
+        "lines": [
+          "地铁19号线(牡丹园--新宫)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.37007,
+          39.968793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "积水潭",
+        "lines": [
+          "地铁19号线(牡丹园--新宫)",
+          "地铁2号线内环(积水潭--积水潭)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.371792,
+          39.947248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "平安里",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)",
+          "地铁19号线(牡丹园--新宫)",
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.368111,
+          39.933354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "太平桥",
+        "lines": [
+          "地铁19号线(牡丹园--新宫)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.363237,
+          39.909529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "牛街",
+        "lines": [
+          "地铁19号线(牡丹园--新宫)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.363475,
+          39.890719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "新发地",
+        "lines": [
+          "地铁19号线(牡丹园--新宫)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.346349,
+          39.823561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "新宫",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)",
+          "地铁19号线(牡丹园--新宫)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.367922,
+          39.812345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "鼓楼大街",
+        "lines": [
+          "地铁2号线内环(积水潭--积水潭)",
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.393776,
+          39.948972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "安定门",
+        "lines": [
+          "地铁2号线内环(积水潭--积水潭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.408227,
+          39.949087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "雍和宫",
+        "lines": [
+          "地铁2号线内环(积水潭--积水潭)",
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.417537,
+          39.949333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "东四十条",
+        "lines": [
+          "地铁2号线内环(积水潭--积水潭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.434133,
+          39.933801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "朝阳门",
+        "lines": [
+          "地铁2号线内环(积水潭--积水潭)",
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.434508,
+          39.924487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北京站",
+        "lines": [
+          "地铁2号线内环(积水潭--积水潭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.427287,
+          39.904983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "崇文门",
+        "lines": [
+          "地铁2号线内环(积水潭--积水潭)",
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.416909,
+          39.901085
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "前门",
+        "lines": [
+          "地铁2号线内环(积水潭--积水潭)",
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.397937,
+          39.900192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "和平门",
+        "lines": [
+          "地铁2号线内环(积水潭--积水潭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.384209,
+          39.900098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "宣武门",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)",
+          "地铁2号线内环(积水潭--积水潭)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.374355,
+          39.899784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "长椿街",
+        "lines": [
+          "地铁2号线内环(积水潭--积水潭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.363355,
+          39.899433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "阜成门",
+        "lines": [
+          "地铁2号线内环(积水潭--积水潭)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.356215,
+          39.923677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "车公庄",
+        "lines": [
+          "地铁2号线内环(积水潭--积水潭)",
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.355867,
+          39.932437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "天宫院",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.319932,
+          39.670342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "生物医药基地",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.321662,
+          39.68651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "义和庄",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.319079,
+          39.712387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "黄村火车站",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.332611,
+          39.722966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "黄村西大街",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.332631,
+          39.731769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "清源路",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.332513,
+          39.742724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "枣园",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.332204,
+          39.753458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "高米店南",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.331605,
+          39.763489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "高米店北",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.330787,
+          39.773547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "西红门",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.328689,
+          39.7898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "公益西桥",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.370837,
+          39.836981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "马家堡",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.371402,
+          39.853428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "陶然亭",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.374383,
+          39.87847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "菜市口",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)",
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.374425,
+          39.889296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "灵境胡同",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.373696,
+          39.916055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "西四",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.373332,
+          39.924206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "新街口",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.367588,
+          39.940684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "动物园",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.339031,
+          39.93825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "魏公村",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.32322,
+          39.957904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "人民大学",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.321367,
+          39.966956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "中关村",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.316467,
+          39.983991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北京大学东门",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.315811,
+          39.992127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "圆明园",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.309879,
+          39.999581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北宫门",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.277347,
+          40.002417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "安河桥北",
+        "lines": [
+          "地铁4号线大兴线(天宫院--安河桥北)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.269956,
+          40.012195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "天通苑北",
+        "lines": [
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.412888,
+          40.083668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "天通苑",
+        "lines": [
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.41289,
+          40.075248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "天通苑南",
+        "lines": [
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.412684,
+          40.066612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "立水桥南",
+        "lines": [
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.414496,
+          40.041956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北苑路北",
+        "lines": [
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.418089,
+          40.030436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "惠新西街北口",
+        "lines": [
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.417028,
+          39.987836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "和平西桥",
+        "lines": [
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.417969,
+          39.968174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "和平里北街",
+        "lines": [
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.418504,
+          39.958734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北新桥",
+        "lines": [
+          "首都机场线(3号航站楼--北新桥)",
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.416884,
+          39.940782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "张自忠路",
+        "lines": [
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.417403,
+          39.933635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "东四",
+        "lines": [
+          "地铁6号线(金安桥--潞城)",
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.417493,
+          39.92437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "灯市口",
+        "lines": [
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.417783,
+          39.917113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "磁器口",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)",
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.418868,
+          39.893077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "天坛东门",
+        "lines": [
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.420833,
+          39.882558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "刘家窑",
+        "lines": [
+          "地铁5号线(天通苑北--宋家庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.422119,
+          39.857521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "苹果园",
+        "lines": [
+          "S1线(石厂--苹果园)",
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.178401,
+          39.925789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "杨庄",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.187004,
+          39.92785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "西黄村",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.20635,
+          39.933735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "廖公庄",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.227292,
+          39.932422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "田村",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.252914,
+          39.929503
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "海淀五路居",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.276636,
+          39.932415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "花园桥",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.310522,
+          39.932341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "白石桥南",
+        "lines": [
+          "地铁9号线(国家图书馆--郭公庄)",
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.324588,
+          39.932523
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "车公庄西",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.344082,
+          39.932466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北海北",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.386829,
+          39.933247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "南锣鼓巷",
+        "lines": [
+          "地铁6号线(金安桥--潞城)",
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.402993,
+          39.933118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "东大桥",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.45168,
+          39.923218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "十里堡",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.502052,
+          39.922919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "青年路",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.51751,
+          39.922919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "褡裢坡",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.563961,
+          39.924021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "黄渠",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.578266,
+          39.924201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "常营",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.599722,
+          39.925696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "草房",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.615574,
+          39.924477
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "物资学院路",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.639316,
+          39.926801
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "通州北关",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.661482,
+          39.918368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北运河西",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.688358,
+          39.903024
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北运河东",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.707056,
+          39.903268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "郝家府",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.717826,
+          39.903195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "东夏园",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.733841,
+          39.903233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "潞城",
+        "lines": [
+          "地铁6号线(金安桥--潞城)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.747507,
+          39.902827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "高楼金",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.68434,
+          39.863154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "群芳",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.670792,
+          39.863515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "万盛东",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.657379,
+          39.863491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "万盛西",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.63216,
+          39.863328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "黑庄户",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.599119,
+          39.858725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "郎辛庄",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.569826,
+          39.856496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "黄厂",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.553759,
+          39.848979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "焦化厂",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.537247,
+          39.855488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "双合",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.526836,
+          39.859691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "垡头",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.511821,
+          39.860728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "欢乐谷景区",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.499173,
+          39.866565
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "南楼梓庄",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.501084,
+          39.874578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "化工",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.503524,
+          39.887368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "百子湾",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.497768,
+          39.89253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "大郊亭",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.487935,
+          39.893183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "广渠门外",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.448998,
+          39.893648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "广渠门内",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.433877,
+          39.893673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "桥湾",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.408464,
+          39.892725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "珠市口",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)",
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.398372,
+          39.891334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "虎坊桥",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.384596,
+          39.889486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "广安门内",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.358239,
+          39.889418
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "湾子",
+        "lines": [
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.327753,
+          39.889954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北京西站",
+        "lines": [
+          "地铁9号线(国家图书馆--郭公庄)",
+          "地铁7号线(环球度假区--北京西站)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.321218,
+          39.894706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "朱辛庄",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)",
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.313698,
+          40.104297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "育知路",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.326992,
+          40.087863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "平西府",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.350415,
+          40.090124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "回龙观东大街",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.363025,
+          40.081175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "育新",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.34716,
+          40.060275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "西小口",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.351644,
+          40.046873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "永泰庄",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.35458,
+          40.037728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "林萃桥",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.372998,
+          40.021906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "森林公园南门",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3926,
+          40.010122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "奥体中心",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.393759,
+          39.985837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "安华桥",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.394159,
+          39.968653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "安德里北街",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.395145,
+          39.957227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "什刹海",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.396219,
+          39.937583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "中国美术馆",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.410798,
+          39.924158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "金鱼胡同",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.411186,
+          39.916372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "天桥",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.398712,
+          39.88192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "木樨园",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.399839,
+          39.859262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "海户屯",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.400301,
+          39.851805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "大红门南",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.401045,
+          39.836715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "和义",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.402073,
+          39.814838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "东高地",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.409427,
+          39.805074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "火箭万源",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.418627,
+          39.799287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "五福堂",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.423903,
+          39.785046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "德茂",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.441772,
+          39.772635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "瀛海",
+        "lines": [
+          "地铁8号线(朱辛庄--瀛海)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.448982,
+          39.760713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "白堆子",
+        "lines": [
+          "地铁9号线(国家图书馆--郭公庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.325762,
+          39.923818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "六里桥东",
+        "lines": [
+          "地铁9号线(国家图书馆--郭公庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.315024,
+          39.887125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "丰台东大街",
+        "lines": [
+          "地铁9号线(国家图书馆--郭公庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.293857,
+          39.855111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "科怡路",
+        "lines": [
+          "地铁9号线(国家图书馆--郭公庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.297432,
+          39.83248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "丰台科技园",
+        "lines": [
+          "地铁9号线(国家图书馆--郭公庄)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.297176,
+          39.825233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "郭公庄",
+        "lines": [
+          "地铁9号线(国家图书馆--郭公庄)",
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.301889,
+          39.814322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "学院桥",
+        "lines": [
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.353438,
+          39.988206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "学知园",
+        "lines": [
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.352195,
+          40.015011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "清河小营桥",
+        "lines": [
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.343739,
+          40.034723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "生命科学园",
+        "lines": [
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.29423,
+          40.09479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "巩华城",
+        "lines": [
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.293979,
+          40.1309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "沙河",
+        "lines": [
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.288865,
+          40.148278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "沙河高教园",
+        "lines": [
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.280465,
+          40.164666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "南邵",
+        "lines": [
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.287631,
+          40.207532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "北邵洼",
+        "lines": [
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.281951,
+          40.222009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "昌平东关",
+        "lines": [
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.262059,
+          40.221729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "昌平",
+        "lines": [
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.23359,
+          40.22055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "十三陵景区",
+        "lines": [
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.207637,
+          40.240214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "昌平西山口",
+        "lines": [
+          "地铁昌平线(西土城--昌平西山口)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.195369,
+          40.244629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "大兴新城",
+        "lines": [
+          "北京大兴国际机场线(草桥--大兴机场)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.365522,
+          39.735583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "大兴机场",
+        "lines": [
+          "北京大兴国际机场线(草桥--大兴机场)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.416608,
+          39.513289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "阎村东",
+        "lines": [
+          "地铁房山线(阎村东--东管头南)",
+          "地铁燕房线(阎村东--燕山)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.100817,
+          39.729028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "苏庄",
+        "lines": [
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.125306,
+          39.723188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "良乡南关",
+        "lines": [
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.140804,
+          39.723202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "良乡大学城西",
+        "lines": [
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.156282,
+          39.723157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "良乡大学城",
+        "lines": [
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.176541,
+          39.723159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "良乡大学城北",
+        "lines": [
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.18348,
+          39.729906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "广阳城",
+        "lines": [
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.184985,
+          39.74793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "篱笆房",
+        "lines": [
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.189486,
+          39.760636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "长阳",
+        "lines": [
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.212692,
+          39.763871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "稻田",
+        "lines": [
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.21884,
+          39.794885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "大葆台",
+        "lines": [
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.291681,
+          39.80781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "白盆窑",
+        "lines": [
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.313391,
+          39.81959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "花乡东桥",
+        "lines": [
+          "地铁房山线(阎村东--东管头南)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.320064,
+          39.829211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "石厂",
+        "lines": [
+          "S1线(石厂--苹果园)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.100334,
+          39.889378
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "小园",
+        "lines": [
+          "S1线(石厂--苹果园)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.114443,
+          39.890465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "栗园庄",
+        "lines": [
+          "S1线(石厂--苹果园)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.123254,
+          39.89578
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "上岸",
+        "lines": [
+          "S1线(石厂--苹果园)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.122225,
+          39.905138
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "桥户营",
+        "lines": [
+          "S1线(石厂--苹果园)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.125809,
+          39.912383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "四道桥",
+        "lines": [
+          "S1线(石厂--苹果园)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.13401,
+          39.91603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "3号航站楼",
+        "lines": [
+          "首都机场线(3号航站楼--北新桥)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.615583,
+          40.052657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "2号航站楼",
+        "lines": [
+          "首都机场线(3号航站楼--北新桥)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.592808,
+          40.079311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "香山",
+        "lines": [
+          "西郊线(香山--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.204491,
+          39.994056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "植物园",
+        "lines": [
+          "西郊线(香山--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.215722,
+          39.993537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "万安",
+        "lines": [
+          "西郊线(香山--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.231977,
+          39.984001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "茶棚",
+        "lines": [
+          "西郊线(香山--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.2481,
+          39.982113
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "颐和园西门",
+        "lines": [
+          "西郊线(香山--巴沟)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.263248,
+          39.985697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "紫草坞",
+        "lines": [
+          "地铁燕房线(阎村东--燕山)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.08672,
+          39.724606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "阎村",
+        "lines": [
+          "地铁燕房线(阎村东--燕山)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.080165,
+          39.716731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "星城",
+        "lines": [
+          "地铁燕房线(阎村东--燕山)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.06137,
+          39.713681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "大石河东",
+        "lines": [
+          "地铁燕房线(阎村东--燕山)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.039954,
+          39.709831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "马各庄",
+        "lines": [
+          "地铁燕房线(阎村东--燕山)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.016606,
+          39.705103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "饶乐府",
+        "lines": [
+          "地铁燕房线(阎村东--燕山)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.006103,
+          39.701471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "房山城关",
+        "lines": [
+          "地铁燕房线(阎村东--燕山)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.989599,
+          39.706061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "燕山",
+        "lines": [
+          "地铁燕房线(阎村东--燕山)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.973395,
+          39.719615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "肖村",
+        "lines": [
+          "地铁亦庄线(宋家庄--亦庄火车站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.448364,
+          39.834217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "小红门",
+        "lines": [
+          "地铁亦庄线(宋家庄--亦庄火车站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.45926,
+          39.82805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "旧宫",
+        "lines": [
+          "地铁亦庄线(宋家庄--亦庄火车站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.460789,
+          39.80691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "亦庄桥",
+        "lines": [
+          "地铁亦庄线(宋家庄--亦庄火车站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.480307,
+          39.803011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "亦庄文化园",
+        "lines": [
+          "地铁亦庄线(宋家庄--亦庄火车站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.490632,
+          39.80689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "万源街",
+        "lines": [
+          "地铁亦庄线(宋家庄--亦庄火车站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.505446,
+          39.802921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "荣京东街",
+        "lines": [
+          "地铁亦庄线(宋家庄--亦庄火车站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.51339,
+          39.793132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "荣昌东街",
+        "lines": [
+          "亦庄T1线(定海园--屈庄(奔驰南))",
+          "地铁亦庄线(宋家庄--亦庄火车站)"
+        ],
+        "status": "运营中",
+        "line_siz": 2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.521737,
+          39.782799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "同济南路",
+        "lines": [
+          "地铁亦庄线(宋家庄--亦庄火车站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.539835,
+          39.7729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "经海路",
+        "lines": [
+          "地铁亦庄线(宋家庄--亦庄火车站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.562245,
+          39.783587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "次渠南",
+        "lines": [
+          "地铁亦庄线(宋家庄--亦庄火车站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.581357,
+          39.795118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "亦庄火车站",
+        "lines": [
+          "地铁亦庄线(宋家庄--亦庄火车站)"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.601913,
+          39.812607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "定海园",
+        "lines": [
+          "亦庄T1线(定海园--屈庄(奔驰南))"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.561959,
+          39.800968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "定海园西",
+        "lines": [
+          "亦庄T1线(定海园--屈庄(奔驰南))"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.551589,
+          39.795997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "经海一路",
+        "lines": [
+          "亦庄T1线(定海园--屈庄(奔驰南))"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.541019,
+          39.790872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "亦创会展中心",
+        "lines": [
+          "亦庄T1线(定海园--屈庄(奔驰南))"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.527486,
+          39.784334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "亦庄同仁",
+        "lines": [
+          "亦庄T1线(定海园--屈庄(奔驰南))"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.518246,
+          39.776854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "鹿圈东",
+        "lines": [
+          "亦庄T1线(定海园--屈庄(奔驰南))"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.513913,
+          39.766271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "泰河路",
+        "lines": [
+          "亦庄T1线(定海园--屈庄(奔驰南))"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.51122,
+          39.759899
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "九号村",
+        "lines": [
+          "亦庄T1线(定海园--屈庄(奔驰南))"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.508708,
+          39.754868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "四海庄",
+        "lines": [
+          "亦庄T1线(定海园--屈庄(奔驰南))"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.504556,
+          39.746579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "太和桥北",
+        "lines": [
+          "亦庄T1线(定海园--屈庄(奔驰南))"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.501886,
+          39.741221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "瑞合庄",
+        "lines": [
+          "亦庄T1线(定海园--屈庄(奔驰南))"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.503576,
+          39.728999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "融兴街",
+        "lines": [
+          "亦庄T1线(定海园--屈庄(奔驰南))"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.505369,
+          39.721869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "station_name": "屈庄",
+        "lines": [
+          "亦庄T1线(定海园--屈庄(奔驰南))"
+        ],
+        "status": "运营中",
+        "line_siz": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.507168,
+          39.714719
+        ]
+      }
+    }
+  ]
+}
